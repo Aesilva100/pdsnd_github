@@ -10,8 +10,8 @@ CITY_DATA = {
 def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     while True:
-        city = input("Enter city name (Chicago, New York City, Washington): ").strip().lower()
-        if city in CITY_DATA:
+        city = input("Enter city name (Chicago, New York City, Washington): ").strip().casefold()
+        if city in (key.casefold() for key in CITY_DATA):
             break
         print("Invalid city name.Please try again.")
 
