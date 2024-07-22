@@ -13,7 +13,7 @@ def get_filters():
         city = input("Enter city name (Chicago, New York City, Washington): ").strip().lower()
         if city in CITY_DATA:
             break
-        print("Invalid city name. Please try again.")
+        print("Invalid city name.Please try again.")
 
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
     while True:
