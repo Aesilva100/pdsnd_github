@@ -25,3 +25,8 @@ This Python project allows users to explore data related to bike share systems f
 ### Credits
 
 This project was inspired by the Udacity Programming for Data Science with Python Nanodegree Program. Many thanks to the Udacity mentors and reviewers for their feedback.
+
+### Installation Requirements
+- Python 3.7 or above
+- pandas library
+- numpy library
